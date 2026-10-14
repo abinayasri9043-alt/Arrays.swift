@@ -1,0 +1,27 @@
+var numbers = [10, 20, 30]
+print(numbers[0])         
+numbers.append(40)
+print(numbers.count)      
+print(numbers.isEmpty)
+
+var items = ["A", "B", "C"]
+items.insert("X", at: 1)
+print(items)
+items.remove(at: 2)
+print(items)
+
+let fruits = ["Apple", "Banana", "Cherry"]
+for fruit in fruits {
+  print(fruit)
+}
+for (i, fruit) in fruits.enumerated() {
+  print("\(i): \(fruit)")
+}
+
+let nums = [10, 20, 30, 40, 50]
+let middle = nums[1...3]          
+print(middle)                    
+let copy = Array(middle)          
+print(copy)
+
+
